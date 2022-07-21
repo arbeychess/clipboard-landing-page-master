@@ -1,0 +1,280 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    height: auto;
+       
+}
+@media (max-width: 375px){
+    body{
+        font-size: 18px;
+        margin: 0px 300px;
+        align-items: center;
+     
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.icono{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+h1{
+    margin: 5px 200px 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+@media (max-width: 375px){
+    h1{
+        margin:5px 180px 0px ;
+        font-size: 50px;
+    }
+}
+
+.first-text{
+    margin: 10px 200px 10px;
+    font-size: 15px;
+    text-align: center;
+}
+@media (max-width: 375px){
+    .first-text{
+        margin: 10px 180px 10px;
+        font-size: 25px;
+    }
+}
+button{
+   margin: 30px 0px;
+ 
+}
+@media (max-width: 375px) {
+    button {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.3em;
+        margin-top: 2em;
+    }
+}
+
+.ios{
+    font-weight: 700;
+   
+    background: hsl(171, 66%, 44%);
+    box-shadow: 0 4px hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 15px ;
+}
+@media (max-width: 375px) {
+    .ios {
+        font-size: 23px;
+        width: 400px;
+    }
+}
+.mac{
+    font-weight: 700;
+    
+    background: hsl(233, 100%, 69%);
+    box-shadow:0 4px hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 15px ;
+    
+} 
+@media (max-width: 375px) {
+    .mac {
+        font-size: 23px;
+        width: 400px;
+    }
+}
+
+.secund{
+    font-size: 15px;
+    margin: 80px 210px;
+   
+}
+
+.tri{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width: 375px) {
+    .tri {
+        margin: 50px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.compu{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 375px) {
+    .compu {
+        margin: 0px 200px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.lado{
+    margin: 10px 80px ;
+    text-align: left;
+    font-size: 19px;
+}
+@media (max-width: 375px) {
+    .lado {
+        margin: 0px 200px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+h3{
+    font-weight: 900;
+}
+.acces{
+    margin: 100px 100px 20px;
+    text-align: center;
+
+}
+.cell{
+    margin: 30px 0px;
+    width: 650px;
+    height: 400px;
+}
+.logos{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;  
+}
+@media (max-width: 375px) {
+    .logos{
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        width: 100px;
+        padding: 80px;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4.5em;
+        
+    }
+}
+.Clip{
+    margin: 100px 100px 20px;
+    padding: 100px;
+    text-align: center;
+}
+
+.logo-fin{
+    margin: 0px 50px;
+    padding: 30px;
+    width: 60px;
+}
+@media (max-width: 375px){
+    .logo-fin{
+        flex-direction: column;
+        width: 80px;
+        height: 80px;
+    }
+}
+.faqs{
+    margin: 0px 50px;
+    gap: 0.5em;
+}
+@media (max-width: 375px){
+    .faqs{
+        flex-direction: column;
+        margin: 0px 30px;
+        gap: 2em;
+      
+    }
+}
+footer{
+    background-color: hsl(200, 20%, 94%);
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+@media (max-width: 375px) {
+    footer{
+        margin: 30px 100px;
+        padding: 100px;
+        flex-direction: column;
+        gap: 4em;
+       
+        
+    }
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    flex: 0;
+    margin-right: 40px;
+    
+}
+a{
+    text-decoration: none;
+}
+.cards {
+    margin: 100px 100px 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.card{
+    margin: 50px;
+    text-align: center;
+}
+
+@media (max-width: 375px) {
+    .cards {
+        flex-direction: column;
+        margin: 90px;
+        padding: 60px;
+    }
+}
+.icon-red{
+padding: 30px;
+display: flex;
+gap: 1.5em;
+}
